@@ -1,3 +1,6 @@
+It is a api based vue js project
+apihub.netlify.app
+
 # book-app
 
 ## Project setup
