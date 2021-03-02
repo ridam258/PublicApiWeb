@@ -2,7 +2,7 @@
     
         <ul>
             
-            <li @click="emitFunction(category)" v-for="category in categoryLists" :key="category" class="has-text-centered">
+            <li style="cursor:pointer" @click="emitFunction(category)" v-for="category in categoryLists" :key="category" class="has-text-centered">
                 <base-card class="m-3"><h1>{{ category }}</h1></base-card>
             </li>
             

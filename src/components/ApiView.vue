@@ -4,8 +4,8 @@
             <div>
                 <ul>
             
-            <li v-for="api in entriesArray" :key="api" class="has-text-centered">
-                <a :href="api['Link']">
+            <li v-for="api in entriesArray" :key="api" class="has-text-centered" style="cursor:pointer">
+                <a :href="api['Link']" target="_blank">
                 <base-card class="m-3">
                     <div class="is-flex is-justify-content-space-between is-align-items-center">
                         <h1 style="margin:0">{{api["API"]}}</h1>
@@ -14,7 +14,7 @@
                     <div>
                         <p style="text-align:left">{{api["Description"]}}</p>
                         
-                        <a href="http://">{{api["Link"]}}</a>
+                        <a :href="api['Link']" target="_blank">{{api["Link"]}}</a>
                         
                     </div>
                 </base-card>
