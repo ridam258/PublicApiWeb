@@ -13,9 +13,9 @@
                     </div>
                     <div>
                         <p style="text-align:left">{{api["Description"]}}</p>
-                        <div class="is-flex is-justify-content-center">
-                        <base-card style="width:70%; font-size:1.2rem" ><a href="http://">{{api["Link"]}}</a></base-card>
-                        </div>
+                        
+                        <a href="http://">{{api["Link"]}}</a>
+                        
                     </div>
                 </base-card>
                 </a>
